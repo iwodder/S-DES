@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d253fdb-4887-45e1-a420-78fd7bf72857" name="Default Changelist" comment="" />
+    <list default="true" id="6d253fdb-4887-45e1-a420-78fd7bf72857" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/KeyGenerationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/SboxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KeyGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S-DES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/S-DES.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S-DES.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/S-DES.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S-DES.iws" beforeDir="false" afterPath="$PROJECT_DIR$/S-DES.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/KeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/KeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/PermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S-DES/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S-DES/Key.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S-DES/Permutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S-DES/Permutation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S-DES/Permutation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/S-DES/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/S-DES/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/S-DES/KeyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/S-DES/KeyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/S-DES/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/S-DES/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Permutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Permutation.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,123 +29,183 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/src">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Key.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1333#1334#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Permutation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="28" selection-start-line="28" selection-end-line="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Test/KeyTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#513#514#0" expanded="true" />
-                    <element signature="e#577#578#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KeyGeneration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S-DES.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/S-DES.ipr">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/KeyGenerationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/KeyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="method#printBits#0;class#KeyTest#0" />
+                <element signature="method#adjustBit#0;class#KeyTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/PermutationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/SboxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/exceptions/KeyFormatException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ExceptionMessages.java" />
-        <option value="$PROJECT_DIR$/src/KeyGeneration.java" />
         <option value="$PROJECT_DIR$/src/KeyTest.java" />
-        <option value="$PROJECT_DIR$/Test/PermutationTest.java" />
         <option value="$PROJECT_DIR$/src/Permutable.java" />
         <option value="$PROJECT_DIR$/src/PermutationMode.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+        <option value="$PROJECT_DIR$/Test/PermutationTest.java" />
         <option value="$PROJECT_DIR$/src/Permutation.java" />
-        <option value="$PROJECT_DIR$/src/Key.java" />
+        <option value="$PROJECT_DIR$/src/Sbox.java" />
+        <option value="$PROJECT_DIR$/Test/SboxTest.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/KeyGeneration.java" />
         <option value="$PROJECT_DIR$/Test/KeyTest.java" />
+        <option value="$PROJECT_DIR$/src/Key.java" />
+        <option value="$PROJECT_DIR$/src/KeyGeneration.java" />
+        <option value="$PROJECT_DIR$/Test/KeyGenerationTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2873" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="S-DES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S-DES" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S-DES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S-DES" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S-DES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="S-DES" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="S-DES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="S-DES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
-              <item name="S-DES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
@@ -133,8 +213,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="src" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="src" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="src" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,18 +241,21 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554861515668" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557367973901" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jdk1.8.0_152/jre/lib/security/policy/US_export_policy.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -175,27 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KeyTest.adjustBit">
-    <configuration name="KeyTest.adjustBit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S-DES" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyTest" />
-      <option name="METHOD_NAME" value="adjustBit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyTest.printBits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="S-DES" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyTest" />
-      <option name="METHOD_NAME" value="printBits" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.KeyTest.returnPartialArray">
     <configuration name="KeyTest.returnBitArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="S-DES" />
       <option name="PACKAGE_NAME" value="" />
@@ -206,27 +288,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch (2)" type="Java Scratch" factoryName="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+    <configuration name="KeyTest.returnPartialArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KeyTest" />
+      <option name="METHOD_NAME" value="returnPartialArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" factoryName="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <configuration name="PermutationTest.permuteKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S-DES" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PermutationTest" />
+      <option name="METHOD_NAME" value="permuteKey" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SboxTest.combineBits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S-DES" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SboxTest" />
+      <option name="METHOD_NAME" value="combineBits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SboxTest.substituteS0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S-DES" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SboxTest" />
+      <option name="METHOD_NAME" value="substituteS0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.KeyTest.returnBitArray" />
+      <item itemvalue="JUnit.KeyTest.returnPartialArray" />
+      <item itemvalue="JUnit.PermutationTest.permuteKey" />
+      <item itemvalue="JUnit.SboxTest.combineBits" />
+      <item itemvalue="JUnit.SboxTest.substituteS0" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KeyTest.adjustBit" />
+        <item itemvalue="JUnit.KeyTest.returnPartialArray" />
         <item itemvalue="JUnit.KeyTest.returnBitArray" />
-        <item itemvalue="JUnit.KeyTest.printBits" />
-        <item itemvalue="Java Scratch.Scratch (2)" />
-        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="JUnit.SboxTest.substituteS0" />
+        <item itemvalue="JUnit.SboxTest.combineBits" />
+        <item itemvalue="JUnit.PermutationTest.permuteKey" />
       </list>
     </recent_temporary>
   </component>
@@ -244,39 +361,71 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KeyTest - 2019.04.01 at 07h 06m 19s.xml">
-      <configuration name="KeyTest" configurationId="JUnit" />
+    <history-entry file="KeyTest_returnPartialArray - 2019.05.08 at 20h 11m 53s.xml">
+      <configuration name="KeyTest.returnPartialArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyTest - 2019.04.01 at 20h 17m 05s.xml">
-      <configuration name="KeyTest" configurationId="JUnit" />
+    <history-entry file="KeyTest_returnPartialArray - 2019.05.08 at 20h 18m 55s.xml">
+      <configuration name="KeyTest.returnPartialArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2019.04.01 at 20h 17m 33s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KeyTest_printBits - 2019.04.09 at 20h 51m 13s.xml">
-      <configuration name="KeyTest.printBits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KeyTest_returnBitArray - 2019.04.09 at 20h 52m 37s.xml">
+    <history-entry file="KeyTest_returnBitArray - 2019.05.08 at 20h 19m 01s.xml">
       <configuration name="KeyTest.returnBitArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyTest_returnBitArray - 2019.04.09 at 20h 53m 03s.xml">
+    <history-entry file="KeyTest_returnBitArray - 2019.05.08 at 20h 21m 13s.xml">
       <configuration name="KeyTest.returnBitArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyTest_adjustBit - 2019.04.09 at 20h 55m 02s.xml">
-      <configuration name="KeyTest.adjustBit" configurationId="JUnit" />
+    <history-entry file="KeyTest_returnPartialArray - 2019.05.08 at 20h 21m 22s.xml">
+      <configuration name="KeyTest.returnPartialArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyTest_adjustBit - 2019.04.09 at 20h 55m 29s.xml">
-      <configuration name="KeyTest.adjustBit" configurationId="JUnit" />
+    <history-entry file="KeyTest_returnPartialArray - 2019.05.08 at 20h 22m 15s.xml">
+      <configuration name="KeyTest.returnPartialArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KeyTest_adjustBit - 2019.04.09 at 20h 56m 32s.xml">
-      <configuration name="KeyTest.adjustBit" configurationId="JUnit" />
+    <history-entry file="KeyTest_returnBitArray - 2019.05.08 at 20h 23m 30s.xml">
+      <configuration name="KeyTest.returnBitArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeyTest_returnPartialArray - 2019.05.08 at 20h 23m 42s.xml">
+      <configuration name="KeyTest.returnPartialArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeyTest_returnBitArray - 2019.05.08 at 20h 25m 40s.xml">
+      <configuration name="KeyTest.returnBitArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KeyTest_returnPartialArray - 2019.05.08 at 20h 25m 51s.xml">
+      <configuration name="KeyTest.returnPartialArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.10501066" />
+      <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" visible="true" weight="0.10501066" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30743983" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33260393" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3261105" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932165" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32932165" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -286,7 +435,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30444205" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3336945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -302,7 +451,37 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sbox.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sbox.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sbox.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Test/KeyTest.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/exceptions/KeyFormatException.java">
@@ -327,24 +506,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeyTest.java" />
     <entry file="file://$PROJECT_DIR$/src/exceptions/PermutationMode.java" />
-    <entry file="file://$PROJECT_DIR$/src/Permutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PermutationMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/PermutationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -389,37 +554,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Permutable.java" />
     <entry file="file://$PROJECT_DIR$/src/Key.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/KeyGenerationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="697">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/KeyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="442">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
+            <element signature="method#printBits#0;class#KeyTest#0" />
+            <element signature="method#adjustBit#0;class#KeyTest#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/PermutationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/SboxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeyGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S-DES.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S-DES.ipr">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="gradleExecuteTaskHistory">
@@ -464,7 +687,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (3)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -476,7 +699,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>S-DES</last-edited>
+          <last-edited>src</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
